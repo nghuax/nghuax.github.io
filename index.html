@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nguyen Xuan An — Portfolio 2026</title>
+  <meta name="description" content="Nguyen Xuan An · UI/UX designer in Ho Chi Minh City. Editorial digital systems for slow, serious brands." />
+  <meta name="theme-color" content="#e3d6c9" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Scroll progress -->
+  <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+  <!-- Cursor halo -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo">
+      <span class="nav__mark">N/A</span>
+      <span class="nav__name">Nguyen Xuan An</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#about"><span class="nav__num">01</span> About</a>
+      <a href="#work"><span class="nav__num">02</span> Work</a>
+      <a href="#process"><span class="nav__num">03</span> Process</a>
+      <a href="#notes"><span class="nav__num">04</span> Notes</a>
+      <a href="dm/index.html"><span class="nav__num">05</span> DM Folio</a>
+      <a href="#contact"><span class="nav__num">06</span> Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn--pill">Start a project <span class="btn__arrow" aria-hidden="true">→</span></a>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" data-reveal-stagger>
+      <div class="hero__media" aria-hidden="true">
+        <div class="hero__media-inner"></div>
+        <div class="hero__media-grain"></div>
+      </div>
+
+      <div class="hero__dateline">
+        <span>Portfolio / 2026 Edition</span>
+        <span aria-hidden="true">·</span>
+        <span>Available 29 Apr — 30 Aug 2026</span>
+      </div>
+
+      <div class="hero__inner">
+        <p class="eyebrow" data-reveal>
+          <span class="dot" aria-hidden="true"></span>
+          P0rtf0li0 / V0lume 03
+        </p>
+        <h1 class="hero__title" data-split>
+          <span class="line">Designing</span>
+          <span class="line"><em>quiet interfaces</em></span>
+          <span class="line">with <span class="u-red">l0ud ideas.</span></span>
+        </h1>
+
+        <div class="hero__meta">
+          <div data-reveal><p class="label">Designer</p><p class="value">Nguyen Xuan An</p></div>
+          <div data-reveal><p class="label">Based in</p><p class="value">HCMC, Vietnam</p></div>
+          <div data-reveal><p class="label">Practice</p><p class="value">UI · UX · Brand</p></div>
+          <div data-reveal><p class="label">Status</p><p class="value"><span class="status-dot"></span>Booking now</p></div>
+        </div>
+
+        <div class="hero__cta" data-reveal>
+          <a class="btn btn--primary" href="#work">See selected work <span class="btn__arrow" aria-hidden="true">↓</span></a>
+          <a class="btn btn--ghost" href="#contact">Start a project</a>
+        </div>
+
+        <div class="hero__collab" data-reveal>
+          <span class="hero__collab-label">Trusted by</span>
+          <ul class="hero__collab-list">
+            <li>Bình An Coffee</li>
+            <li>Sông Xanh</li>
+            <li>Nhà Magazine</li>
+            <li>Vườn Studio</li>
+            <li>Kafka Roasters</li>
+            <li>Saigon Slow</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Keep reading</span>
+        <div class="hero__line"></div>
+      </div>
+
+      <div class="hero__ticker" aria-hidden="true">
+        <div class="ticker">
+          <span>UI / UX Design</span><span class="ticker__dot"></span>
+          <span>Brand Systems</span><span class="ticker__dot"></span>
+          <span>Editorial Layouts</span><span class="ticker__dot"></span>
+          <span>Design Research</span><span class="ticker__dot"></span>
+          <span>Slow Type</span><span class="ticker__dot"></span>
+          <span>UI / UX Design</span><span class="ticker__dot"></span>
+          <span>Brand Systems</span><span class="ticker__dot"></span>
+          <span>Editorial Layouts</span><span class="ticker__dot"></span>
+          <span>Design Research</span><span class="ticker__dot"></span>
+          <span>Slow Type</span><span class="ticker__dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section--cream" id="about">
+      <div class="section__head" data-reveal>
+        <span class="num">01</span>
+        <h2 class="section__title">Pause before<br /><em>you scroll.</em></h2>
+      </div>
+      <div class="about">
+        <div class="about__lead" data-reveal>
+          <p>
+            I'm An — a designer who treats every pixel like editorial copy.
+            My work lives between <strong>research and rhythm</strong>: slow,
+            considered, and curious about how people actually read an interface.
+          </p>
+        </div>
+        <div class="about__body" data-reveal>
+          <p>
+            For three years I've helped early-stage brands and non-profits turn
+            messy ideas into calm, confident products. I care about typography,
+            generous whitespace, and systems that outlive the designer who made them.
+          </p>
+          <ul class="about__facts">
+            <li><span class="label">Years</span><span class="value">03</span></li>
+            <li><span class="label">Shipped</span><span class="value"><span data-count="24">0</span> products</span></li>
+            <li><span class="label">Tools</span><span class="value">Figma · Webflow</span></li>
+            <li><span class="label">Languages</span><span class="value">VN · EN</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section section--beige" id="work">
+      <div class="section__head" data-reveal>
+        <span class="num">02</span>
+        <h2 class="section__title">Selected<br /><em>work,</em> 2024—2026.</h2>
+      </div>
+
+      <div class="work">
+        <article class="project" data-reveal style="--project-bg: var(--coffee-red);">
+          <a href="work.html#binh-an-coffee" class="project__inner">
+            <div class="project__top">
+              <span class="project__tag">01 / Brand + Web · 2026</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3 class="project__title">Bình An Coffee</h3>
+            <p class="project__desc">
+              Editorial rebrand for a Saigon micro-roaster. A quiet gold and
+              deep red system rooted in Vietnamese ceramic traditions.
+            </p>
+            <div class="project__tags">
+              <span>Branding</span><span>Packaging</span><span>Web</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project" data-reveal style="--project-bg: var(--deep-teal);">
+          <a href="work.html#song-xanh-atlas" class="project__inner">
+            <div class="project__top">
+              <span class="project__tag">02 / Product · 2025</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3 class="project__title">Sông Xanh Atlas</h3>
+            <p class="project__desc">
+              An interactive atlas mapping the Mekong's tributaries for a
+              climate non-profit. Long-form, slow-scroll, teal-first.
+            </p>
+            <div class="project__tags">
+              <span>UX Research</span><span>Data Viz</span><span>Editorial</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project" data-reveal style="--project-bg: var(--leaf-green);">
+          <a href="work.html#vuon-plant-care" class="project__inner">
+            <div class="project__top">
+              <span class="project__tag">03 / UI System · 2025</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3 class="project__title">Vườn — Plant Care</h3>
+            <p class="project__desc">
+              A gentle mobile companion for urban plant parents, with haptic
+              nudges and a component library grown from leaves.
+            </p>
+            <div class="project__tags">
+              <span>Mobile</span><span>Design System</span><span>Illustration</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project" data-reveal style="--project-bg: var(--espresso);">
+          <a href="work.html#nha-magazine" class="project__inner">
+            <div class="project__top">
+              <span class="project__tag">04 / Editorial · 2024</span>
+              <span class="project__arrow" aria-hidden="true">↗</span>
+            </div>
+            <h3 class="project__title">Nhà Magazine</h3>
+            <p class="project__desc">
+              A bi-monthly publication about home, made slow. Print-first
+              grids translated for screens with zero compromise.
+            </p>
+            <div class="project__tags">
+              <span>Editorial</span><span>Typography</span><span>Print</span>
+            </div>
+          </a>
+        </article>
+      </div>
+
+      <a href="work.html" class="work__more" data-reveal>
+        <span>See the full archive</span>
+        <span aria-hidden="true">→</span>
+      </a>
+
+      <a href="dm/index.html" class="work__more" data-reveal style="margin-left: 2rem;">
+        <span><em>or read</em> the Digital Marketing folio</span>
+        <span aria-hidden="true">↗</span>
+      </a>
+    </section>
+
+    <!-- PROCESS — circular diagram -->
+    <section class="section section--dark" id="process">
+      <div class="section__head section__head--light" data-reveal>
+        <span class="num num--gold">03</span>
+        <h2 class="section__title">The work,<br /><em>in four beats.</em></h2>
+      </div>
+
+      <div class="wheel" data-reveal>
+        <div class="wheel__stage">
+          <div class="wheel__ring" aria-hidden="true"></div>
+          <div class="wheel__dashed" aria-hidden="true"></div>
+          <div class="wheel__core">
+            <p class="wheel__core-label">The cycle</p>
+            <p class="wheel__core-title">Listen.<br/>Shape.<br/>Ship.</p>
+          </div>
+          <div class="wheel__node wheel__node--1">
+            <span class="wheel__num">I.</span>
+            <h3>Listen &amp; map</h3>
+            <p>Interviews, desk research, quiet audits.</p>
+          </div>
+          <div class="wheel__node wheel__node--2">
+            <span class="wheel__num">II.</span>
+            <h3>Shape the brief</h3>
+            <p>One page. One tension. One measure.</p>
+          </div>
+          <div class="wheel__node wheel__node--3">
+            <span class="wheel__num">III.</span>
+            <h3>Sketch the system</h3>
+            <p>Tokens before components. Opinions before polish.</p>
+          </div>
+          <div class="wheel__node wheel__node--4">
+            <span class="wheel__num">IV.</span>
+            <h3>Ship &amp; revise</h3>
+            <p>Small releases. Written changelogs. Six-week follow-ups.</p>
+          </div>
+        </div>
+      </div>
+
+      <figure class="quote" data-reveal>
+        <blockquote>
+          <p>Design isn't decoration — it's the posture a product holds when it speaks.</p>
+        </blockquote>
+        <figcaption>— An, on a slow afternoon</figcaption>
+      </figure>
+    </section>
+
+    <!-- FIELD NOTES (content hub) -->
+    <section class="section section--cream" id="notes">
+      <div class="section__head" data-reveal>
+        <span class="num">04</span>
+        <h2 class="section__title">Field notes<br /><em>&amp; writing.</em></h2>
+      </div>
+
+      <div class="notes">
+        <a class="note" data-reveal href="writing.html#slow-interfaces" style="--note-accent: var(--red);">
+          <span class="note__date">APR · 2026</span>
+          <h3>On slow interfaces</h3>
+          <p>Why good screens read like essays, not dashboards.</p>
+          <span class="note__cta">Read →</span>
+        </a>
+        <a class="note" data-reveal href="writing.html#type-scales" style="--note-accent: var(--espresso);">
+          <span class="note__date">MAR · 2026</span>
+          <h3>Type scales, by hand</h3>
+          <p>Modular scales are a starting point — not a conclusion.</p>
+          <span class="note__cta">Read →</span>
+        </a>
+        <a class="note" data-reveal href="writing.html#research-as-editing" style="--note-accent: var(--deep-teal);">
+          <span class="note__date">FEB · 2026</span>
+          <h3>Research as editing</h3>
+          <p>The interview is a draft. The product is the second edit.</p>
+          <span class="note__cta">Read →</span>
+        </a>
+        <a class="note" data-reveal href="writing.html#grammar-for-grids" style="--note-accent: var(--leaf-green);">
+          <span class="note__date">JAN · 2026</span>
+          <h3>A grammar for grids</h3>
+          <p>How I teach juniors to feel whitespace before they measure it.</p>
+          <span class="note__cta">Read →</span>
+        </a>
+        <a class="note" data-reveal href="writing.html#diacritics-on-screen" style="--note-accent: var(--coffee-red);">
+          <span class="note__date">DEC · 2025</span>
+          <h3>Vietnamese diacritics on screen</h3>
+          <p>What most system fonts still get wrong, and what to reach for.</p>
+          <span class="note__cta">Read →</span>
+        </a>
+        <a class="note" data-reveal href="writing.html#tokens-and-trust" style="--note-accent: var(--near-black);">
+          <span class="note__date">NOV · 2025</span>
+          <h3>Tokens don't ship trust</h3>
+          <p>Design systems only work when the writing around them does.</p>
+          <span class="note__cta">Read →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- DIRECTORY -->
+    <section class="section section--beige" id="directory">
+      <div class="section__head" data-reveal>
+        <span class="num">05</span>
+        <h2 class="section__title">Where I<br /><em>can help.</em></h2>
+      </div>
+
+      <div class="directory" data-reveal>
+        <p class="directory__intro">
+          Pick the shape of the work. I'll send a short reply with timelines,
+          a typical price band, and two calendar slots for a call.
+        </p>
+        <div class="directory__select">
+          <label for="svc">Service</label>
+          <div class="select">
+            <select id="svc">
+              <option>Brand identity &amp; system</option>
+              <option>Editorial website (marketing)</option>
+              <option>Product UI &amp; design system</option>
+              <option>UX research &amp; audit</option>
+              <option>Design mentorship (monthly)</option>
+              <option>Fractional design partner</option>
+            </select>
+            <span class="select__arrow" aria-hidden="true">↓</span>
+          </div>
+          <a
+            href="mailto:hello@nguyenxuanan.design?subject=Project%20inquiry%20%E2%80%94%20Brand%20identity%20%26%20system"
+            class="btn btn--primary btn--sm"
+            id="serviceInquiryButton"
+          >Get a reply in 48h</a>
+        </div>
+        <ul class="directory__list">
+          <li><span class="directory__k">01</span><span class="directory__v">Brand identity &amp; system</span><span class="directory__t">4—6 wk</span></li>
+          <li><span class="directory__k">02</span><span class="directory__v">Editorial website (marketing)</span><span class="directory__t">3—5 wk</span></li>
+          <li><span class="directory__k">03</span><span class="directory__v">Product UI &amp; design system</span><span class="directory__t">6—10 wk</span></li>
+          <li><span class="directory__k">04</span><span class="directory__v">UX research &amp; audit</span><span class="directory__t">2—3 wk</span></li>
+          <li><span class="directory__k">05</span><span class="directory__v">Design mentorship</span><span class="directory__t">Monthly</span></li>
+          <li><span class="directory__k">06</span><span class="directory__v">Fractional design partner</span><span class="directory__t">Ongoing</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--gold" id="contact">
+      <div class="contact">
+        <p class="eyebrow" data-reveal><span class="dot dot--dark" aria-hidden="true"></span>Open for work · 29 Apr — 30 Aug 2026</p>
+        <h2 class="contact__title" data-reveal>
+          Have a slow,<br />
+          <em>serious</em> project?<br />
+          Let's make it <span class="u-red">l0ud</span> together.
+        </h2>
+        <div class="contact__cta" data-reveal>
+          <a class="btn btn--primary btn--lg" href="mailto:hello@nguyenxuanan.design?subject=Project%20inquiry">
+            Email hello@nguyenxuanan.design
+          </a>
+          <a class="btn btn--ghost btn--lg" href="cv.html">Open CV</a>
+        </div>
+        <ul class="contact__socials" data-reveal>
+          <li><a href="work.html">Selected work <span aria-hidden="true">↗</span></a></li>
+          <li><a href="writing.html">Writing <span aria-hidden="true">↗</span></a></li>
+          <li><a href="cv.html">CV <span aria-hidden="true">↗</span></a></li>
+          <li><a href="dm/index.html">Digital Marketing folio <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://github.com/nghuax" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__big" aria-hidden="true">
+      <span>Nguyen</span><span class="footer__sep">·</span><span>Xuan</span><span class="footer__sep">·</span><span>An</span>
+    </div>
+    <div class="footer__row">
+      <p>© 2026 Nguyen Xuan An. Designed &amp; built in HCMC with Fraunces + Inter.</p>
+      <p class="footer__loc">10.7769° N, 106.7009° E</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

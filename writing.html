@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writing — Nguyen Xuan An</title>
+  <meta name="description" content="Field notes and essays by Nguyen Xuan An on interface writing, type, grids, and design systems." />
+  <meta name="theme-color" content="#e3d6c9" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav__logo" aria-label="Home">
+      <span class="nav__mark">N/A</span>
+      <span class="nav__name">Nguyen Xuan An</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="index.html"><span class="nav__num">01</span> Home</a>
+      <a href="#essays"><span class="nav__num">02</span> Essays</a>
+      <a href="work.html"><span class="nav__num">03</span> Work</a>
+      <a href="dm/index.html"><span class="nav__num">04</span> DM Folio</a>
+      <a href="cv.html"><span class="nav__num">05</span> CV</a>
+      <a href="index.html#contact"><span class="nav__num">06</span> Contact</a>
+    </nav>
+    <a href="mailto:hello@nguyenxuanan.design?subject=Writing%20inquiry" class="btn btn--pill">Say hello <span class="btn__arrow" aria-hidden="true">→</span></a>
+  </header>
+
+  <main>
+    <section class="hero hero--page" data-reveal-stagger>
+      <div class="hero__media" aria-hidden="true">
+        <div class="hero__media-inner"></div>
+        <div class="hero__media-grain"></div>
+      </div>
+
+      <div class="hero__dateline">
+        <span>Field notes / 2025—2026</span>
+        <span aria-hidden="true">·</span>
+        <span>Type, systems, research, reading</span>
+      </div>
+
+      <div class="hero__inner">
+        <p class="eyebrow" data-reveal><span class="dot" aria-hidden="true"></span>Essays / notebooks / fragments</p>
+        <h1 class="hero__title" data-split>
+          <span class="line">Writing about</span>
+          <span class="line"><em>how screens read.</em></span>
+        </h1>
+        <p class="hero__lede" data-reveal>
+          Short essays on the parts of digital design that are easy to feel and harder to name:
+          rhythm, tone, density, and the quiet labor of making information legible.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--cream" id="essays">
+      <div class="section__head" data-reveal>
+        <span class="num">01</span>
+        <h2 class="section__title">Recent <em>notes.</em></h2>
+      </div>
+
+      <div class="story-grid">
+        <article class="story" id="slow-interfaces" data-reveal>
+          <p class="story__eyebrow">APR 2026</p>
+          <h3>On slow interfaces</h3>
+          <p>
+            A slow interface is not a sluggish one. It is a screen that respects sequence.
+            It knows what should be read first, what can wait, and what should remain quiet.
+          </p>
+          <p>
+            Most cluttered products are not suffering from too much information. They are
+            suffering from too little editing. Slowness, in this sense, is editorial discipline.
+          </p>
+          <p class="story__quote">Good interfaces create tempo before they create delight.</p>
+        </article>
+
+        <article class="story" id="type-scales" data-reveal>
+          <p class="story__eyebrow">MAR 2026</p>
+          <h3>Type scales, by hand</h3>
+          <p>
+            I like modular scales, but I do not trust them to finish the job. They can tell
+            you where to start; they cannot tell you where emphasis should bend for a headline,
+            a caption, or a line of Vietnamese text with dense diacritics.
+          </p>
+          <p>
+            Hand-adjusted type feels better because it remembers the paragraph, not just the ratio.
+          </p>
+        </article>
+
+        <article class="story" id="research-as-editing" data-reveal>
+          <p class="story__eyebrow">FEB 2026</p>
+          <h3>Research as editing</h3>
+          <p>
+            Interviews are usually treated as discovery. I think of them as rough drafts.
+            People rarely hand you the product truth in a clean sentence. They hand you
+            fragments, patterns, tension, and contradiction.
+          </p>
+          <p>
+            The designer's job is to edit those fragments into structure without sanding off
+            the human texture that made them valuable in the first place.
+          </p>
+        </article>
+
+        <article class="story" id="grammar-for-grids" data-reveal>
+          <p class="story__eyebrow">JAN 2026</p>
+          <h3>A grammar for grids</h3>
+          <p>
+            I teach grids as a form of syntax. A good grid is not visible because it is rigid;
+            it is visible because it gives unrelated elements a believable reason to live together.
+          </p>
+          <p>
+            Before we measure columns, I ask juniors to identify pressure, pause, interruption,
+            and return. Those are layout decisions before they are spacing decisions.
+          </p>
+        </article>
+
+        <article class="story" id="diacritics-on-screen" data-reveal>
+          <p class="story__eyebrow">DEC 2025</p>
+          <h3>Vietnamese diacritics on screen</h3>
+          <p>
+            When a typeface mishandles Vietnamese, the reading experience becomes quietly brittle.
+            Even generous spacing cannot rescue a system where stacked marks feel accidental.
+          </p>
+          <p>
+            Good multilingual typography is not a localization afterthought. It is a quality bar.
+          </p>
+        </article>
+
+        <article class="story" id="tokens-and-trust" data-reveal>
+          <p class="story__eyebrow">NOV 2025</p>
+          <h3>Tokens don't ship trust</h3>
+          <p>
+            Teams often believe a design system will solve inconsistency on its own. It will not.
+            Tokens create repeatability, but trust is built in the layer around them: naming,
+            writing, review habits, and the social contract of using the system well.
+          </p>
+          <p>
+            The most durable systems are not the biggest ones. They are the ones people can explain.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--beige">
+      <div class="page-grid">
+        <div class="page-stack" data-reveal>
+          <p class="page-lead">
+            I write to clarify the rules I keep using in practice.
+          </p>
+          <p>
+            If you are building a product, publication, or brand system and want a sharper
+            editorial eye on the interface, I am always happy to talk through the work.
+          </p>
+        </div>
+
+        <aside class="page-panel" data-reveal>
+          <h3>Continue reading</h3>
+          <ul class="page-links">
+            <li><a href="work.html">Selected work <span aria-hidden="true">→</span></a></li>
+            <li><a href="dm/index.html">Digital Marketing folio <span aria-hidden="true">→</span></a></li>
+            <li><a href="cv.html">CV and experience <span aria-hidden="true">→</span></a></li>
+          </ul>
+        </aside>
+      </div>
+
+      <a class="backlink" href="index.html">← Back to home</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__big" aria-hidden="true">
+      <span>Field</span><span class="footer__sep">·</span><span>Notes</span>
+    </div>
+    <div class="footer__row">
+      <p>Writing by Nguyen Xuan An.</p>
+      <p class="footer__loc">Type, rhythm, systems, and research.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

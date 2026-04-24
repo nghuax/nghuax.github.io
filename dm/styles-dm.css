@@ -678,6 +678,17 @@
   margin: 0;
   font-size: 1.05rem;
 }
+.figure__canvas--image {
+  padding: 0;
+  overflow: hidden;
+  border-style: solid;
+  background: rgba(255, 255, 255, 0.68);
+}
+.figure__canvas--image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .figure__caption {
   font-size: 0.82rem;
   color: var(--espresso);
@@ -692,6 +703,64 @@
 }
 .section--dark .figure__canvas p,
 .section--dark .figure__caption { color: var(--beige); }
+.section--dark .figure__canvas--image {
+  background: rgba(227, 214, 201, 0.04);
+}
+
+.doc-shotlist {
+  margin: 1.5rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--espresso);
+}
+.doc-shotlist li {
+  margin-bottom: 0.55rem;
+}
+.doc-shotlist strong {
+  font-family: var(--font-serif);
+  font-weight: 600;
+}
+
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.chapter-card {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  border: 1px solid rgba(31, 34, 33, 0.15);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.35);
+}
+.chapter-card span {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--coffee-red);
+  font-weight: 700;
+}
+.chapter-card h3 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  line-height: 1.12;
+}
+.chapter-card p {
+  margin: 0;
+}
+.chapter-card a {
+  justify-self: start;
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+@media (max-width: 820px) {
+  .chapter-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* ---------- Credibility pills (intro) ---------- */
 .pills {

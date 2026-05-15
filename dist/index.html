@@ -1,0 +1,51 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+        name="description"
+        content="JZ portfolio rebuilt with a Bugatti-inspired cinema-black design system."
+      />
+      <title>JZ Portfolio</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400&family=Inter:wght@400&family=Space+Mono:wght@400&display=swap"
+        rel="stylesheet"
+      />
+      <script type="module" crossorigin src="./assets/index-CbIq9Z0t.js"></script>
+      <link rel="stylesheet" crossorigin href="./assets/index-mv4kGCkf.css">
+    </head>
+
+    <body>
+      <script>
+        (function () {
+          const hasBuiltBundle = Boolean(
+            document.querySelector('script[src^="./assets/"], script[src*="/assets/"]'),
+          );
+
+          if (hasBuiltBundle || window.location.pathname.startsWith("/dist")) {
+            return;
+          }
+
+          try {
+            const request = new XMLHttpRequest();
+            request.open("HEAD", "/@vite/client", false);
+            request.send(null);
+
+            if (request.status >= 200 && request.status < 400) {
+              return;
+            }
+          } catch (error) {
+            // Fall through to the built output when a plain static server is used.
+          }
+
+          window.location.replace(new URL("./dist/", window.location.href).toString());
+        })();
+      </script>
+      <div id="root"></div>
+    </body>
+  </html>
+  

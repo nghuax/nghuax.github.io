@@ -1,2 +1,6 @@
-.claude/
-Digital Marketing.docx
+node_modules
+dist
+.DS_Store
+.env
+.env.*
+Photo/
